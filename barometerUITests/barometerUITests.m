@@ -36,7 +36,7 @@
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     
-    [[[XCUIApplication alloc] init].alerts[@"Bluetooth Low Energy not supported !"].collectionViews.buttons[@"OK"]
+    [[[XCUIApplication alloc] init].alerts[@"Your Device doesn't support Bluetooth Low Energy not supported!"].collectionViews.buttons[@"OK"]
      tap];
 }
 

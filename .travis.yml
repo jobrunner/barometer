@@ -1,0 +1,4 @@
+language: objective-c
+xcode_workspace: barometer.xcworkspace
+xcode_scheme: barometerTests
+xcode_sdk: iphonesimulator

@@ -51,7 +51,7 @@
     if (central.state != CBCentralManagerStatePoweredOn) {
         NSString *stateMessage = [NSString stringWithFormat:@"CoreBluetooth return state: %ld", (long)central.state];
         
-        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"BLE not supported!"
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Your Device doesn't support Bluetooth Low Energy not supported!"
                                                            message:stateMessage
                                                           delegate:self
                                                  cancelButtonTitle:@"OK"
