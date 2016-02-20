@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240567251C768A7D00CCA504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240567241C768A7D00CCA504 /* main.m */; };
+		240567281C768A7D00CCA504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 240567271C768A7D00CCA504 /* AppDelegate.m */; };
+		2405672B1C768A7D00CCA504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405672A1C768A7D00CCA504 /* ViewController.m */; };
+		2405672E1C768A7D00CCA504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2405672C1C768A7D00CCA504 /* Main.storyboard */; };
+		240567331C768A7D00CCA504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240567321C768A7D00CCA504 /* Assets.xcassets */; };
+		240567411C768A7D00CCA504 /* barometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240567401C768A7D00CCA504 /* barometerTests.m */; };
+		2405674C1C768A7D00CCA504 /* barometerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405674B1C768A7D00CCA504 /* barometerUITests.m */; };
+		2405675A1C768ACE00CCA504 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240567591C768ACE00CCA504 /* CoreBluetooth.framework */; };
+		240567601C76939A00CCA504 /* SensorC953A.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405675F1C76939A00CCA504 /* SensorC953A.m */; };
+		24AB3FB81C78B6DA0014AE95 /* CBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB3FB61C78B6DA0014AE95 /* CBHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2405673D1C768A7D00CCA504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240567181C768A7D00CCA504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2405671F1C768A7D00CCA504;
+			remoteInfo = barometer;
+		};
+		240567481C768A7D00CCA504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 240567181C768A7D00CCA504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2405671F1C768A7D00CCA504;
+			remoteInfo = barometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		240567201C768A7D00CCA504 /* barometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		240567241C768A7D00CCA504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		240567261C768A7D00CCA504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		240567271C768A7D00CCA504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		240567291C768A7D00CCA504 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2405672A1C768A7D00CCA504 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2405672D1C768A7D00CCA504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		240567321C768A7D00CCA504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		240567371C768A7D00CCA504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2405673C1C768A7D00CCA504 /* barometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		240567401C768A7D00CCA504 /* barometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barometerTests.m; sourceTree = "<group>"; };
+		240567421C768A7D00CCA504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240567471C768A7D00CCA504 /* barometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2405674B1C768A7D00CCA504 /* barometerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barometerUITests.m; sourceTree = "<group>"; };
+		2405674D1C768A7D00CCA504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240567591C768ACE00CCA504 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2405675E1C76939A00CCA504 /* SensorC953A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorC953A.h; sourceTree = "<group>"; };
+		2405675F1C76939A00CCA504 /* SensorC953A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorC953A.m; sourceTree = "<group>"; };
+		24AB3FB61C78B6DA0014AE95 /* CBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBHelper.m; sourceTree = "<group>"; };
+		24AB3FB71C78B6DA0014AE95 /* CBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2405671D1C768A7D00CCA504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2405675A1C768ACE00CCA504 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240567391C768A7D00CCA504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240567441C768A7D00CCA504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		240567171C768A7D00CCA504 = {
+			isa = PBXGroup;
+			children = (
+				240567591C768ACE00CCA504 /* CoreBluetooth.framework */,
+				240567221C768A7D00CCA504 /* barometer */,
+				2405673F1C768A7D00CCA504 /* barometerTests */,
+				2405674A1C768A7D00CCA504 /* barometerUITests */,
+				240567211C768A7D00CCA504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		240567211C768A7D00CCA504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				240567201C768A7D00CCA504 /* barometer.app */,
+				2405673C1C768A7D00CCA504 /* barometerTests.xctest */,
+				240567471C768A7D00CCA504 /* barometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		240567221C768A7D00CCA504 /* barometer */ = {
+			isa = PBXGroup;
+			children = (
+				240567261C768A7D00CCA504 /* AppDelegate.h */,
+				240567271C768A7D00CCA504 /* AppDelegate.m */,
+				240567291C768A7D00CCA504 /* ViewController.h */,
+				2405672A1C768A7D00CCA504 /* ViewController.m */,
+				24AB3FB61C78B6DA0014AE95 /* CBHelper.m */,
+				24AB3FB71C78B6DA0014AE95 /* CBHelper.h */,
+				2405675E1C76939A00CCA504 /* SensorC953A.h */,
+				2405675F1C76939A00CCA504 /* SensorC953A.m */,
+				2405672C1C768A7D00CCA504 /* Main.storyboard */,
+				240567231C768A7D00CCA504 /* Supporting Files */,
+			);
+			path = barometer;
+			sourceTree = "<group>";
+		};
+		240567231C768A7D00CCA504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				240567321C768A7D00CCA504 /* Assets.xcassets */,
+				240567371C768A7D00CCA504 /* Info.plist */,
+				240567241C768A7D00CCA504 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2405673F1C768A7D00CCA504 /* barometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				240567401C768A7D00CCA504 /* barometerTests.m */,
+				240567421C768A7D00CCA504 /* Info.plist */,
+			);
+			path = barometerTests;
+			sourceTree = "<group>";
+		};
+		2405674A1C768A7D00CCA504 /* barometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2405674B1C768A7D00CCA504 /* barometerUITests.m */,
+				2405674D1C768A7D00CCA504 /* Info.plist */,
+			);
+			path = barometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2405671F1C768A7D00CCA504 /* barometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240567501C768A7D00CCA504 /* Build configuration list for PBXNativeTarget "barometer" */;
+			buildPhases = (
+				2405671C1C768A7D00CCA504 /* Sources */,
+				2405671D1C768A7D00CCA504 /* Frameworks */,
+				2405671E1C768A7D00CCA504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barometer;
+			productName = barometer;
+			productReference = 240567201C768A7D00CCA504 /* barometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2405673B1C768A7D00CCA504 /* barometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240567531C768A7D00CCA504 /* Build configuration list for PBXNativeTarget "barometerTests" */;
+			buildPhases = (
+				240567381C768A7D00CCA504 /* Sources */,
+				240567391C768A7D00CCA504 /* Frameworks */,
+				2405673A1C768A7D00CCA504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2405673E1C768A7D00CCA504 /* PBXTargetDependency */,
+			);
+			name = barometerTests;
+			productName = barometerTests;
+			productReference = 2405673C1C768A7D00CCA504 /* barometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		240567461C768A7D00CCA504 /* barometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240567561C768A7D00CCA504 /* Build configuration list for PBXNativeTarget "barometerUITests" */;
+			buildPhases = (
+				240567431C768A7D00CCA504 /* Sources */,
+				240567441C768A7D00CCA504 /* Frameworks */,
+				240567451C768A7D00CCA504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240567491C768A7D00CCA504 /* PBXTargetDependency */,
+			);
+			name = barometerUITests;
+			productName = barometerUITests;
+			productReference = 240567471C768A7D00CCA504 /* barometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		240567181C768A7D00CCA504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mayflower;
+				TargetAttributes = {
+					2405671F1C768A7D00CCA504 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2405673B1C768A7D00CCA504 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2405671F1C768A7D00CCA504;
+					};
+					240567461C768A7D00CCA504 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2405671F1C768A7D00CCA504;
+					};
+				};
+			};
+			buildConfigurationList = 2405671B1C768A7D00CCA504 /* Build configuration list for PBXProject "barometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 240567171C768A7D00CCA504;
+			productRefGroup = 240567211C768A7D00CCA504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2405671F1C768A7D00CCA504 /* barometer */,
+				2405673B1C768A7D00CCA504 /* barometerTests */,
+				240567461C768A7D00CCA504 /* barometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2405671E1C768A7D00CCA504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240567331C768A7D00CCA504 /* Assets.xcassets in Resources */,
+				2405672E1C768A7D00CCA504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2405673A1C768A7D00CCA504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240567451C768A7D00CCA504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2405671C1C768A7D00CCA504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AB3FB81C78B6DA0014AE95 /* CBHelper.m in Sources */,
+				2405672B1C768A7D00CCA504 /* ViewController.m in Sources */,
+				240567281C768A7D00CCA504 /* AppDelegate.m in Sources */,
+				240567251C768A7D00CCA504 /* main.m in Sources */,
+				240567601C76939A00CCA504 /* SensorC953A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240567381C768A7D00CCA504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				240567411C768A7D00CCA504 /* barometerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240567431C768A7D00CCA504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2405674C1C768A7D00CCA504 /* barometerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2405673E1C768A7D00CCA504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2405671F1C768A7D00CCA504 /* barometer */;
+			targetProxy = 2405673D1C768A7D00CCA504 /* PBXContainerItemProxy */;
+		};
+		240567491C768A7D00CCA504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2405671F1C768A7D00CCA504 /* barometer */;
+			targetProxy = 240567481C768A7D00CCA504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2405672C1C768A7D00CCA504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2405672D1C768A7D00CCA504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2405674E1C768A7D00CCA504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2405674F1C768A7D00CCA504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		240567511C768A7D00CCA504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mayflower.jo.barometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		240567521C768A7D00CCA504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = barometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mayflower.jo.barometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		240567541C768A7D00CCA504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = barometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mayflower.jo.barometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barometer.app/barometer";
+			};
+			name = Debug;
+		};
+		240567551C768A7D00CCA504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = barometerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mayflower.jo.barometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barometer.app/barometer";
+			};
+			name = Release;
+		};
+		240567571C768A7D00CCA504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = barometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mayflower.jo.barometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = barometer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		240567581C768A7D00CCA504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = barometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.mayflower.jo.barometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = barometer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2405671B1C768A7D00CCA504 /* Build configuration list for PBXProject "barometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2405674E1C768A7D00CCA504 /* Debug */,
+				2405674F1C768A7D00CCA504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240567501C768A7D00CCA504 /* Build configuration list for PBXNativeTarget "barometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240567511C768A7D00CCA504 /* Debug */,
+				240567521C768A7D00CCA504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240567531C768A7D00CCA504 /* Build configuration list for PBXNativeTarget "barometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240567541C768A7D00CCA504 /* Debug */,
+				240567551C768A7D00CCA504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240567561C768A7D00CCA504 /* Build configuration list for PBXNativeTarget "barometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				240567571C768A7D00CCA504 /* Debug */,
+				240567581C768A7D00CCA504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 240567181C768A7D00CCA504 /* Project object */;
+}
