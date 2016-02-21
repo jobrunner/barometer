@@ -17,6 +17,7 @@
 		2405675A1C768ACE00CCA504 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240567591C768ACE00CCA504 /* CoreBluetooth.framework */; };
 		240567601C76939A00CCA504 /* SensorC953A.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405675F1C76939A00CCA504 /* SensorC953A.m */; };
 		24AB3FB81C78B6DA0014AE95 /* CBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB3FB61C78B6DA0014AE95 /* CBHelper.m */; };
+		24AB3FC11C78DE440014AE95 /* Sensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB3FBF1C78DE440014AE95 /* Sensor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		2405675F1C76939A00CCA504 /* SensorC953A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorC953A.m; sourceTree = "<group>"; };
 		24AB3FB61C78B6DA0014AE95 /* CBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBHelper.m; sourceTree = "<group>"; };
 		24AB3FB71C78B6DA0014AE95 /* CBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBHelper.h; sourceTree = "<group>"; };
+		24AB3FBF1C78DE440014AE95 /* Sensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sensor.m; sourceTree = "<group>"; };
+		24AB3FC01C78DE440014AE95 /* Sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sensor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +116,10 @@
 				240567271C768A7D00CCA504 /* AppDelegate.m */,
 				240567291C768A7D00CCA504 /* ViewController.h */,
 				2405672A1C768A7D00CCA504 /* ViewController.m */,
-				24AB3FB61C78B6DA0014AE95 /* CBHelper.m */,
+				24AB3FC01C78DE440014AE95 /* Sensor.h */,
+				24AB3FBF1C78DE440014AE95 /* Sensor.m */,
 				24AB3FB71C78B6DA0014AE95 /* CBHelper.h */,
+				24AB3FB61C78B6DA0014AE95 /* CBHelper.m */,
 				2405675E1C76939A00CCA504 /* SensorC953A.h */,
 				2405675F1C76939A00CCA504 /* SensorC953A.m */,
 				2405672C1C768A7D00CCA504 /* Main.storyboard */,
@@ -218,6 +223,12 @@
 				TargetAttributes = {
 					2405671F1C768A7D00CCA504 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = L79BTFY6FV;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					2405673B1C768A7D00CCA504 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -285,6 +296,7 @@
 				240567281C768A7D00CCA504 /* AppDelegate.m in Sources */,
 				240567251C768A7D00CCA504 /* main.m in Sources */,
 				240567601C76939A00CCA504 /* SensorC953A.m in Sources */,
+				24AB3FC11C78DE440014AE95 /* Sensor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = barometer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -427,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = barometer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
